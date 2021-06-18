@@ -6,7 +6,7 @@ import CoinItem from './components/CoinItem'
 const App = () => {
 
   const [search, setSearch] = useState("");
-  const [refreshing, setRefreshing] = useState(false)
+  const [refreshing, setRefreshing] = useState(false);
   const [coins, setCoins] = useState([]);
 
   const loadData = async () => {
